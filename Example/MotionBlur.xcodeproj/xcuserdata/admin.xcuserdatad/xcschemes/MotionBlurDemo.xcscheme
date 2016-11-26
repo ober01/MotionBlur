@@ -16,7 +16,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A6E3925619784EDC00C02D47"
                BuildableName = "MotionBlur.app"
-               BlueprintName = "MotionBlur"
+               BlueprintName = "MotionBlurDemo"
                ReferencedContainer = "container:MotionBlur.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -34,7 +34,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A6E3925619784EDC00C02D47"
             BuildableName = "MotionBlur.app"
-            BlueprintName = "MotionBlur"
+            BlueprintName = "MotionBlurDemo"
             ReferencedContainer = "container:MotionBlur.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -57,7 +57,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A6E3925619784EDC00C02D47"
             BuildableName = "MotionBlur.app"
-            BlueprintName = "MotionBlur"
+            BlueprintName = "MotionBlurDemo"
             ReferencedContainer = "container:MotionBlur.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -76,7 +76,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A6E3925619784EDC00C02D47"
             BuildableName = "MotionBlur.app"
-            BlueprintName = "MotionBlur"
+            BlueprintName = "MotionBlurDemo"
             ReferencedContainer = "container:MotionBlur.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

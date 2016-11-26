@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		84AB33CB1DE9A549008E6707 /* MotionBlurFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 84AB33C91DE9A549008E6707 /* MotionBlurFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		84AB33CE1DE9A549008E6707 /* MotionBlurFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84AB33C71DE9A549008E6707 /* MotionBlurFramework.framework */; };
-		84AB33CF1DE9A549008E6707 /* MotionBlurFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 84AB33C71DE9A549008E6707 /* MotionBlurFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		84AB33CE1DE9A549008E6707 /* MotionBlur.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84AB33C71DE9A549008E6707 /* MotionBlur.framework */; };
+		84AB33CF1DE9A549008E6707 /* MotionBlur.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 84AB33C71DE9A549008E6707 /* MotionBlur.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		84AB33D41DE9A556008E6707 /* MotionBlurFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B9C22A197D569B008B2037 /* MotionBlurFilter.m */; };
 		84AB33D51DE9A559008E6707 /* UIView+MotionBlur.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B9C22C197D569B008B2037 /* UIView+MotionBlur.m */; };
 		84AB33D61DE9A55C008E6707 /* UIView+AHKSnapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = A63038D41AD05CC600243D22 /* UIView+AHKSnapshot.m */; };
@@ -43,7 +43,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				84AB33CF1DE9A549008E6707 /* MotionBlurFramework.framework in Embed Frameworks */,
+				84AB33CF1DE9A549008E6707 /* MotionBlur.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -51,7 +51,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		84AB33C71DE9A549008E6707 /* MotionBlurFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MotionBlurFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84AB33C71DE9A549008E6707 /* MotionBlur.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MotionBlur.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		84AB33C91DE9A549008E6707 /* MotionBlurFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MotionBlurFramework.h; sourceTree = "<group>"; };
 		84AB33CA1DE9A549008E6707 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A63038D31AD05CC600243D22 /* UIView+AHKSnapshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AHKSnapshot.h"; sourceTree = "<group>"; };
@@ -83,7 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84AB33CE1DE9A549008E6707 /* MotionBlurFramework.framework in Frameworks */,
+				84AB33CE1DE9A549008E6707 /* MotionBlur.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,7 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				A6E3925719784EDC00C02D47 /* MotionBlur.app */,
-				84AB33C71DE9A549008E6707 /* MotionBlurFramework.framework */,
+				84AB33C71DE9A549008E6707 /* MotionBlur.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -175,9 +175,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		84AB33C61DE9A549008E6707 /* MotionBlurFramework */ = {
+		84AB33C61DE9A549008E6707 /* MotionBlur */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 84AB33D21DE9A549008E6707 /* Build configuration list for PBXNativeTarget "MotionBlurFramework" */;
+			buildConfigurationList = 84AB33D21DE9A549008E6707 /* Build configuration list for PBXNativeTarget "MotionBlur" */;
 			buildPhases = (
 				84AB33C21DE9A549008E6707 /* Sources */,
 				84AB33C31DE9A549008E6707 /* Frameworks */,
@@ -188,14 +188,14 @@
 			);
 			dependencies = (
 			);
-			name = MotionBlurFramework;
+			name = MotionBlur;
 			productName = MotionBlurFramework;
-			productReference = 84AB33C71DE9A549008E6707 /* MotionBlurFramework.framework */;
+			productReference = 84AB33C71DE9A549008E6707 /* MotionBlur.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		A6E3925619784EDC00C02D47 /* MotionBlur */ = {
+		A6E3925619784EDC00C02D47 /* MotionBlurDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A6E3927719784EDC00C02D47 /* Build configuration list for PBXNativeTarget "MotionBlur" */;
+			buildConfigurationList = A6E3927719784EDC00C02D47 /* Build configuration list for PBXNativeTarget "MotionBlurDemo" */;
 			buildPhases = (
 				A6E3925319784EDC00C02D47 /* Sources */,
 				A6E3925419784EDC00C02D47 /* Frameworks */,
@@ -207,7 +207,7 @@
 			dependencies = (
 				84AB33CD1DE9A549008E6707 /* PBXTargetDependency */,
 			);
-			name = MotionBlur;
+			name = MotionBlurDemo;
 			productName = AHKMotionBlur;
 			productReference = A6E3925719784EDC00C02D47 /* MotionBlur.app */;
 			productType = "com.apple.product-type.application";
@@ -243,8 +243,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A6E3925619784EDC00C02D47 /* MotionBlur */,
-				84AB33C61DE9A549008E6707 /* MotionBlurFramework */,
+				A6E3925619784EDC00C02D47 /* MotionBlurDemo */,
+				84AB33C61DE9A549008E6707 /* MotionBlur */,
 			);
 		};
 /* End PBXProject section */
@@ -297,7 +297,7 @@
 /* Begin PBXTargetDependency section */
 		84AB33CD1DE9A549008E6707 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 84AB33C61DE9A549008E6707 /* MotionBlurFramework */;
+			target = 84AB33C61DE9A549008E6707 /* MotionBlur */;
 			targetProxy = 84AB33CC1DE9A549008E6707 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -482,13 +482,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		84AB33D21DE9A549008E6707 /* Build configuration list for PBXNativeTarget "MotionBlurFramework" */ = {
+		84AB33D21DE9A549008E6707 /* Build configuration list for PBXNativeTarget "MotionBlur" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				84AB33D01DE9A549008E6707 /* Debug */,
 				84AB33D11DE9A549008E6707 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A6E3925219784EDC00C02D47 /* Build configuration list for PBXProject "MotionBlur" */ = {
 			isa = XCConfigurationList;
@@ -499,7 +500,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A6E3927719784EDC00C02D47 /* Build configuration list for PBXNativeTarget "MotionBlur" */ = {
+		A6E3927719784EDC00C02D47 /* Build configuration list for PBXNativeTarget "MotionBlurDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A6E3927819784EDC00C02D47 /* Debug */,
