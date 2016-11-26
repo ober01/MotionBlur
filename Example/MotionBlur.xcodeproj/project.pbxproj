@@ -13,6 +13,9 @@
 		84AB33D41DE9A556008E6707 /* MotionBlurFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B9C22A197D569B008B2037 /* MotionBlurFilter.m */; };
 		84AB33D51DE9A559008E6707 /* UIView+MotionBlur.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B9C22C197D569B008B2037 /* UIView+MotionBlur.m */; };
 		84AB33D61DE9A55C008E6707 /* UIView+AHKSnapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = A63038D41AD05CC600243D22 /* UIView+AHKSnapshot.m */; };
+		84AB33DA1DE9A88F008E6707 /* MotionBlurFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = A6B9C229197D569B008B2037 /* MotionBlurFilter.h */; };
+		84AB33DB1DE9A892008E6707 /* UIView+MotionBlur.h in Headers */ = {isa = PBXBuildFile; fileRef = A6B9C22B197D569B008B2037 /* UIView+MotionBlur.h */; };
+		84AB33DC1DE9A895008E6707 /* UIView+AHKSnapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = A63038D31AD05CC600243D22 /* UIView+AHKSnapshot.h */; };
 		A63038D51AD05CC600243D22 /* UIView+AHKSnapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = A63038D41AD05CC600243D22 /* UIView+AHKSnapshot.m */; };
 		A6B9C22D197D569B008B2037 /* MotionBlurFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B9C22A197D569B008B2037 /* MotionBlurFilter.m */; };
 		A6B9C22E197D569B008B2037 /* UIView+MotionBlur.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B9C22C197D569B008B2037 /* UIView+MotionBlur.m */; };
@@ -163,6 +166,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				84AB33CB1DE9A549008E6707 /* MotionBlurFramework.h in Headers */,
+				84AB33DA1DE9A88F008E6707 /* MotionBlurFilter.h in Headers */,
+				84AB33DC1DE9A895008E6707 /* UIView+AHKSnapshot.h in Headers */,
+				84AB33DB1DE9A892008E6707 /* UIView+MotionBlur.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
